@@ -1,0 +1,10 @@
+*.pyc
+__pycache__
+*.so
+*.o
+dist
+build
+MANIFEST
+*.egg-info
+.idea/
+run_example.sh
