@@ -1,6 +1,6 @@
 from setuptools import setup
 
-with open('README.md', "r") as fh:
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setup_args = dict(
@@ -10,7 +10,7 @@ setup_args = dict(
     url='https://github.com/mfdeux/aionewsapi',
     description='Asyncio client for interacting with newsapi.org',
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type='text/markdown',
     license='MIT',
     packages=['aionewsapi'],
     classifiers=[
