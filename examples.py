@@ -1,9 +1,6 @@
 import asyncio
 
-import uvloop
 from aionewsapi import NewsAPI
-
-asyncio.set_event_loop_policy(uvloop.EventLoopPolicy())
 
 news_api = NewsAPI()
 

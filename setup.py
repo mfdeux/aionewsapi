@@ -5,7 +5,7 @@ with open('README.md', "r") as fh:
 
 setup_args = dict(
     name='aionewsapi',
-    version='1.1.1',
+    version='1.1.2',
     author='Marc Ford',
     url='https://github.com/mfdeux/aionewsapi',
     description='Asyncio client for interacting with newsapi.org',
@@ -21,7 +21,6 @@ setup_args = dict(
     ],
     install_requires=[
         'aiohttp',
-        'uvloop',
         'marshmallow',
         'python-dateutil'
     ]
