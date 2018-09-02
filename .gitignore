@@ -8,3 +8,4 @@ MANIFEST
 *.egg-info
 .idea/
 run_example.sh
+upload_pypi.sh
